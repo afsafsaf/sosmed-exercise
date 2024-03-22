@@ -1,5 +1,5 @@
-import { AvatarFallback } from "@/components/ui/avatar";
-import { Avatar, AvatarImage } from "@radix-ui/react-avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+
 import { UserPlus } from "lucide-react";
 import React from "react";
 

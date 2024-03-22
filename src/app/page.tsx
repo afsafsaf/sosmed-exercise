@@ -40,7 +40,11 @@ export default function Home() {
 
           {/* FOLLOW LIST */}
 
-          <div></div>
+          <div>
+            <CardWhoToFollow />
+            <CardWhoToFollow />
+            <CardWhoToFollow />
+          </div>
           {/* ENF FOLLOW LIST */}
         </section>
       </main>

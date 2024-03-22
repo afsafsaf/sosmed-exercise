@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Budi Jancok",
+      "email": "budi@mail.com",
+      "isVerify": true
+    },
+    {
+      "id": "78cf",
+      "name": "qwqw",
+      "email": "abdulfaishal111@gmail.com",
+      "password": "dsd",
+      "isVerify": false
+    }
+  ]
+}
