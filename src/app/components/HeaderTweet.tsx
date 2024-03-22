@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
 const HeaderTweet: React.FC = () => {
-  const [tweet, setTweet] = useState();
+  const [tweet, setTweet] = useState("");
   return (
     <section>
       <div className="flex gap-4">
@@ -24,7 +24,7 @@ const HeaderTweet: React.FC = () => {
         />
       </div>
 
-      <p className="my-1 text-right text-xs">200</p>
+      <p className="my-1 text-right text-xs">{tweet.length}/200</p>
       <div className="flex justify-end">
         <Button>Tweet</Button>
       </div>
